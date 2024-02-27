@@ -1,0 +1,47 @@
+h1, h2 {
+    font-family: 'Brush Script MT', cursive, sans-serif;
+    text-align: center;
+    font-size:60px;
+}
+
+body {
+    background-color: RGB(0, 0, 255, 0.3)
+}
+
+img {
+    height: auto;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+ul, ol {
+    display: table;
+    margin: 0 auto;
+}
+
+li {
+    font-size: 20px;
+}
+
+a.back:link, a.back:visited {
+    color: black;
+    text-decoration: none;
+    font-size: 36px;
+    border: 2px solid black;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+a.back:hover, a.back:active {
+    background-color: white;
+}
